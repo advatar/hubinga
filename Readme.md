@@ -20,6 +20,8 @@ $ cp vault.js.example vault.js
 
 Edit postmile/api/vault.js and set the values of the 'aes256Key' variables to different random secrets sufficiently long (e.g. 40 characters).
 
+openssl enc -aes-256-cbc -k passphrase -P -md sha1
+
 If your MongoDB requires authentication, set the values of the database 'username' and 'password' (otherwise leave empty).
 
 ```bash

@@ -44,7 +44,7 @@ exports.process = {
 
     web: {
 
-        // runAs: 'www-data',
+        //runAs: 'www-data',
 
         // tls: {
         //
@@ -75,20 +75,16 @@ exports.database = {
 exports.email = {
 
     fromName: 'Postmile',
-    replyTo: 'no-reply@your.domain',
-    admin: 'admin@your.domain',
-    feedback: 'admin@your.domain',
+    replyTo: 'johan@sellstrom.me',
+    admin: 'johan@sellstrom.me',
+    feedback: 'johan@sellstrom.me',
 
     server: {
-
-//      port: 25,
-//      user: '',
-//      password: '',
-//      host: 'localhost',
-//      ssl: false
+      port: 25,
+      user: 'johan.sellstrom@gmail.com',
+      password: 's1ng4p0r3',
+      host: 'smtp.google.com',
+      ssl: true
     }
 };
-
-
-
 
